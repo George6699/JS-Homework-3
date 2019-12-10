@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- подключены бутстрап иконки шрифты -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Homework3JSModule2</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    
+  </head>
+  <body>
+    <div id="info">
+      <h2>Officers</h2>
+      <form>
+        <!--js-->
+      </form>
+    </div>
+    <br>
+
+    <div id="detailedInfo">
+      <h2>Detailed info</h2>
+      <form>
+        <!--js-->
+      </form>
+    </div>
+    <br>
+
+    <div id="createNew">
+      <h2>Edit info</h2>
+      <form>
+        <div class="divRadio">
+          <div><input type="radio" id="radioTankist" name="radioOfficerType" value="Tankist" >Танкист</div>
+          <div><input type="radio" id="radioInafntry" name="radioOfficerType" value="Infantry">Пехотинец</div>
+        </div>
+        <br>
+      <span>Имя:</span><input type="text" id="textName" value="Ivan" required><br><br>
+      <span>Фамилия:</span><input type="text" id="textSurname" value="Ivaov"><br><br>
+      <span>Возраст:</span><input type="number" id="textAge" value="25" required><br><br>
+      <span>Образование:</span><input type="text" id="textStudy" value="GrGU"><br><br>
+      <span>Срециальность:</span><input type="text" id="textSpeciality" value="Tankist" required><br><br>
+      <span>Звание:</span><input type="text" id="textRankName" value="Captain" required><br><br>
+      <span>Стаж:</span><input type="number" id="textExperience" value="15" required><br><br>
+      <span>Местоположение:</span><input type="text" id="textLocation" value="Minsk"><br><br>
+      <input type="button" id="createOfficer" class="buttons" value="Добавить дело в архив ">
+      <input type="button" id="mainMenu"class="buttons" value="Главное меню">
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
